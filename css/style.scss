@@ -32,7 +32,8 @@ body {
 
 .main-bg {
     position: absolute;
-    background: url(../img/main-bg.svg), #fff9d9;
+    background: url(../img/main-bg.svg), url(../img/main-bg.png), #fff9d9;
+    // background: url(../img/main-bg.png), #fff9d9;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -57,7 +58,7 @@ body {
     &-text {
         margin: 103px 0;
 
-        img {
+        object {
             margin-bottom: 35px;
         }
 
@@ -99,6 +100,9 @@ body {
 
     .icons {
         margin-right: 32px;
+        display: flex;
+        align-items: center;
+        
         img:first-child {
             margin-right: 32px;
         }

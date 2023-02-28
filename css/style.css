@@ -30,7 +30,7 @@ body {
 
 .main-bg {
   position: absolute;
-  background: url(../img/main-bg.svg), #fff9d9;
+  background: url(../img/main-bg.svg), url(../img/main-bg.png), #fff9d9;
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -53,7 +53,7 @@ body {
 .main-text {
   margin: 103px 0;
 }
-.main-text img {
+.main-text object {
   margin-bottom: 35px;
 }
 .main-text h1 {
@@ -91,6 +91,8 @@ body {
 }
 .download-box-container .icons {
   margin-right: 32px;
+  display: flex;
+  align-items: center;
 }
 .download-box-container .icons img:first-child {
   margin-right: 32px;
