@@ -11,19 +11,22 @@
 
 <body>
     <div class="container">
-        <main>
+        <section class="main">
             <div class="main-bg"></div>
             <div class="main-section">
                 <div class="main-text">
-                    <img src="./img/logo.png" alt="">
+                    <picture>
+                        <source srcset="./img/logo.svg">
+                        <img src="./img/logo.png" alt="Tumpa Logo">
+                    </picture>
                     <h1>OpenPGP for smart cards made easy.</h1>
                     <p>No more terminals, no more typing and entering options multiple times. All you need to do is fill
                         up a few fields, and click a few times.</p>
                 </div>
                 <img src="./img/main-illustration.svg" alt="">
             </div>
-        </main>
-        <div class="download-box-container">
+        </section>
+        <section class="download-box-container">
             <div class="icons">
                 <img src="./img/linux.svg" alt="">
                 <img src="./img/mac.svg" alt="">
@@ -34,8 +37,8 @@
             <div class="download-button">
                 <a href="#">Download</a>
             </div>
-        </div>
-        <div class="features">
+        </section>
+        <section class="features">
             <h2>Features</h2>
             <div class="feature-boxes-container">
                 <div class="feature-box">
@@ -57,8 +60,8 @@
                         fermentum, enim orci rhoncus tortor, in laoreet elit eros eu sem. </p>
                 </div>
             </div>
-        </div>
-        <div class="testimonials">
+        </section >
+        <section class="testimonials">
             <h2>Testimonials</h2>
             <div class="testimonials-container">
                 <div class="testimonial">
@@ -80,8 +83,17 @@
                     <p>“Lorem ipsum dolor sit amet, consectetur adipiscing elit. “</p>
                 </div>
             </div>
-        </div>
+        </section>
     </div>
+    <footer>
+        <div class="tumpa-bird">
+            <div class="social-media">
+                <img src="./img/github.svg" alt="">
+                <img src="./img/twitter.svg" alt="">
+                <img src="./img/email.svg" alt="">
+            </div>
+        </div>
+    </footer>
 </body>
 
 </html>
