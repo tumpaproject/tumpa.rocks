@@ -382,4 +382,46 @@ footer {
             }
         }
     }
+
+    .features {
+        margin-top: 54px;
+
+        .feature-boxes-container {
+            flex-wrap: wrap;
+            justify-content: center;
+        }
+    }
+
+    .testimonials {
+        margin-top: 54px;
+
+        .testimonials-container {
+            flex-wrap: wrap;
+            justify-content: center;
+            max-width: 246px;
+
+            .testimonial {
+                margin-bottom: 80px;
+            }
+        }
+    }
+
+    footer {
+        .tumpa-bird {
+            position: relative;
+            width: 218px;
+            height: 135px;
+            background-image: url(../img/tumpa-bird.svg);
+
+            .social-media {
+                position: absolute;
+                right: 50%;
+                top: -50%;
+                transform: translateX(50%);
+                gap: 27px;
+                display: flex;
+                align-items: center;
+            }
+        }
+    }
 }
