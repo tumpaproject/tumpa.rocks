@@ -45,6 +45,10 @@ body {
     justify-content: center;
 }
 
+.no-js {
+    display: none;
+}
+
 .main {
     &-section {
         position: relative;
@@ -59,9 +63,15 @@ body {
     &-text {
         margin: 103px 0;
 
-        object {
-            margin-bottom: 35px;
-        }
+        // .img-container {
+        //     height: max-content;
+        //     max-height: 46px;
+        //     width: max-content;
+        //     background-image: url(../img/logo.png);
+        //     background-repeat: no-repeat;
+        //     background-position: top;
+        //     background-size: contain;
+        // }
 
         h1 {
             max-width: 468px;
@@ -333,7 +343,7 @@ footer {
             flex-direction: column;
             align-items: flex-start;
 
-            img {
+            .img-container {
                 margin-bottom: 37px;
             }
         }

@@ -64,6 +64,10 @@ body {
           justify-content: center;
 }
 
+.no-js {
+  display: none;
+}
+
 .main-section {
   position: relative;
   max-width: 1170px;
@@ -81,10 +85,6 @@ body {
 
 .main-text {
   margin: 103px 0;
-}
-
-.main-text object {
-  margin-bottom: 35px;
 }
 
 .main-text h1 {
@@ -432,7 +432,7 @@ footer .tumpa-bird .social-media {
         -ms-flex-align: start;
             align-items: flex-start;
   }
-  .main-section .main-text img {
+  .main-section .main-text .img-container {
     margin-bottom: 37px;
   }
   .main-section .main-illustration {
