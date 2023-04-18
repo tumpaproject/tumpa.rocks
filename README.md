@@ -1,8 +1,5 @@
 # tumpa.rocks
-Website for Tumpa
 
-To do:
+This repository contains the code for the [website](https://tumpaproject.github.io/tumpa.rocks/) of Tumpa. To check the codebase for the Tumpa application itself, please check [https://github.com/tumpaproject/tumpa](https://github.com/tumpaproject/tumpa.rocks).
 
-- Create backups for each image
-- Add footer illustration
-- General refactoring
+The code for the website is written in plain HTML and CSS. To test it locally, you can just open the `index.html` file in your favorite browser.
