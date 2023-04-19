@@ -12,7 +12,16 @@ body {
     margin: 0;
     padding: 0;
     overflow-x: hidden;
-    font-size: 48px;
+    font-size: 16px;
+}
+
+.sr-only:not(:focus):not(:active) {
+    clip-path: inset(50%);
+    height: 1px;
+    overflow: hidden;
+    position: absolute;
+    white-space: nowrap;
+    width: 1px;
 }
 
 .container {
@@ -73,24 +82,24 @@ body {
         //     background-size: contain;
         // }
 
-        h1 {
+        .title {
             max-width: 468px;
             font-family: 'Quicksand';
             font-style: normal;
             font-weight: 700;
-            font-size: 1em;
+            font-size: 3rem;
             line-height: 120%;
             letter-spacing: -0.025em;
             color: #54298b;
             margin: 0 0 20px 0;
         }
 
-        p {
+        .subtext {
             max-width: 468px;
             font-family: 'Mulish';
             font-style: normal;
             font-weight: 400;
-            font-size: 0.5em;
+            font-size: 1.5rem;
             color: #2d2d2d;
             margin: 0;
         }
@@ -126,7 +135,7 @@ body {
             font-family: 'Mulish';
             font-style: normal;
             font-weight: 400;
-            font-size: 0.4em;
+            font-size: 1.25rem;
             margin: 0;
         }
     }
@@ -141,7 +150,7 @@ body {
             font-family: 'Quicksand';
             font-style: normal;
             font-weight: 700;
-            font-size: 0.375em;
+            font-size: 1.125rem;
             text-decoration: none;
             color: #f1dc6d;
             padding: 18px 50px;
@@ -181,7 +190,7 @@ body {
                 font-family: 'Quicksand';
                 font-style: normal;
                 font-weight: 700;
-                font-size: 0.58em;
+                font-size: 1.75em;
                 text-align: center;
                 letter-spacing: -0.01em;
                 color: #2d2d2d;
@@ -196,7 +205,6 @@ body {
                 font-family: 'Mulish';
                 font-style: normal;
                 font-weight: 400;
-                font-size: 0.33em;
                 color: #2d2d2d;
                 margin: 0;
                 pointer-events: none;
@@ -215,7 +223,7 @@ body {
         font-family: 'Quicksand';
         font-style: normal;
         font-weight: 700;
-        font-size: 0.79em;
+        font-size: 2.375rem;
         text-align: center;
         letter-spacing: -0.02em;
         color: #54298b;
@@ -254,7 +262,6 @@ body {
                 font-family: 'Mulish';
                 font-style: italic;
                 font-weight: 400;
-                font-size: 0.33em;
                 text-align: center;
                 color: #2d2d2d;
                 margin: 16px 0 0 0;
@@ -294,7 +301,7 @@ footer {
 
 @media only screen and (max-width: 1140px) {
     body {
-        font-size: 44px;
+        font-size: 14px;
     }
 
     .container {
@@ -308,7 +315,7 @@ footer {
 
 @media only screen and (max-width: 960px) {
     body {
-        font-size: 40px;
+        font-size: 12px;
     }
 
     .container {
@@ -322,7 +329,7 @@ footer {
 
 @media only screen and (max-width: 768px) {
     body {
-        font-size: 36px;
+        font-size: 10px;
     }
 
     .container {
