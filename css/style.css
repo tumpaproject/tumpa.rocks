@@ -97,7 +97,7 @@ body {
   line-height: 120%;
   letter-spacing: -0.025em;
   color: var(--color-purple);
-  margin: 0.5rem 0 1.25rem 0;
+  margin: 1.5rem 0 1.25rem 0;
 }
 .main-text .subtext {
   max-width: 468px;
