@@ -48,6 +48,14 @@ body {
   display: none;
 }
 
+.flex-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: stretch;
+  width: 100%;
+}
+
 /* Common typography styles */
 h2 {
   font-family: var(--font-title);
@@ -58,6 +66,13 @@ h2 {
   letter-spacing: -0.02em;
   color: var(--color-purple);
   margin: 0 0 40px 0;
+}
+
+h2:has(img) {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
 }
 
 .title {
@@ -231,7 +246,7 @@ a {
   pointer-events: none;
 }
 
-.cli {
+.extras {
   background-color: var(--color-yellow-wash);
   margin-top: 77px;
   padding: 20px 32px 20px 40px;
@@ -240,12 +255,12 @@ a {
   border-radius: 12px;
 }
 
-.cli .text {
-  max-width: 600px;
+.extras .text {
+  max-width: 475px;
   text-align: center;
 }
 
-.cli h2 {
+.extras h2 {
   margin: 0
 }
 
